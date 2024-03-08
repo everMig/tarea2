@@ -1,31 +1,95 @@
 .principal
 {
-   background-color: aquamarine;
-   
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-
-}
-.contenedor{
-
-display: flex;
-flex-direction: column;
+    background-color: coral;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 .caja
 {
 
-    background-color: gold;
-    width: 300px;
-    height: 300px;
-    margin: 5px;
+    background-color:rgba(248, 19, 19, 0.76);
+    
+    margin-left: 15px;
+    width: 400px;
+    height: 600px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
-.caja1
-{
-    background-color: orange;
-    margin: 5px;
-    height: 200px;
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+.centro
+    {
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.cajaA1{
+    background-color:rgb(255, 208, 0);
+   
+    margin-left: 15px;
+    display: flexbox;
+    width: 80px;
+    height: 90px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.cajaM2{
+ background-color:rgb(11, 102, 186);
+   
+    margin-left: 15px;
+    width: 300px;
+    height: 100px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
 
 
-}/*flex wrap*/
+}
+.cajaB{
+
+    background-color:rgb(255, 208, 0);
+   
+    margin-left: 15px;
+    display: flexbox;
+    width: 80px;
+    height: 90px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.cenCaja{
+    background-color:rgb(21, 230, 56);
+   display: flex;
+    margin-left: 15px;
+    width: 300px;
+  height: 100px;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.dereCaja{
+ 
+    
+    background-color:rgb(255, 208, 0);
+    
+  
+    margin-left: 15px;
+    display: flexbox;
+    width: 100px;
+    height: 90px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
